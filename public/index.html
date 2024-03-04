@@ -3,18 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>代码美化</title>
+    <title>Code Beautifier</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f7f7f7;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #beautifiedCode {
+        background-color: #f2f2f2;
+        padding: 10px;
+        font-family: monospace;
+        white-space: pre-wrap;
+        word-break: break-all;
+        overflow-x: auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 20px;
+      }
+    </style>
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="/client.js" defer></script>
   </head>
   <body>
-    <h1>需要美化的代码</h1>
-    <textarea id="userCode" rows="10" cols="50"></textarea><br /><br />
-    <button id="beautifyButton">美化</button><br /><br />
-    <pre id="beautifiedCode"></pre>
-    <br /><br />
-    <button id="copyButton">复制</button>
-    <!-- 添加下载按钮 -->
-    <button id="downloadButton">下载美化后的代码</button>
+    <div class="container">
+      <h1>Code Beautifier</h1>
+      <textarea id="userCode" placeholder="请输入需要美化的代码"></textarea>
+      <div class="button-group">
+        <button id="beautifyButton">美化</button>
+        <button id="copyButton">复制</button>
+        <button id="downloadButton">下载美化后的代码</button>
+      </div>
+      <pre id="beautifiedCode"></pre>
+    </div>
   </body>
 </html>
