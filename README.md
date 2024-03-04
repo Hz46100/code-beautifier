@@ -6,11 +6,13 @@
 
 ### 文件结构概览
 
+```
 ├── package.json
 ├── public
 │ ├── index.html
 │ └── client.js
 └── server.js
+```
 
 ### 如何运行
 
