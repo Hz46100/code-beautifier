@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           document.body.removeChild(link);
         }, 0);
       });
-      
+
       // 复制功能
       copyButton.addEventListener('click', () => {
         navigator.clipboard.writeText(beautifiedCodeOutput.textContent);
