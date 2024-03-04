@@ -39,4 +39,4 @@ After successfully starting the service, open your browser and navigate to `http
 
 ---
 
-[Go back to the Project Homepage](../) 
+[Go back to the Project Homepage](./) 
