@@ -1,4 +1,4 @@
-# 代码美化与下载 Demo
+# 代码美化 Demo
 
 ## 介绍
 
@@ -18,7 +18,7 @@
 
 #### 1. 安装依赖
 
-在项目根目录下执行以下命令：
+在根目录下执行以下命令:
 
 ```sh
 npm init -y
@@ -30,3 +30,7 @@ npm install express js-beautify axios body-parser
 ```sh
 node server.js
 ```
+
+#### 3. 访问前端页面
+
+服务启动后，打开浏览器访问 http://localhost:3000
