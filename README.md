@@ -6,7 +6,11 @@
 
 ### 文件结构概览
 
-├── package.json ├── public │ ├── index.html │ └── client.js └── server.js
+├── package.json
+├── public
+│ ├── index.html
+│ └── client.js
+└── server.js
 
 ### 如何运行
 
@@ -21,4 +25,6 @@ npm install express js-beautify axios body-parser
 
 #### 2. 启动后端服务
 
+```sh
 node server.js
+```
