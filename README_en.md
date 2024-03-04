@@ -36,3 +36,5 @@ node server.js
 #### 3. Access the Front-end Page
 
 After successfully starting the service, open your browser and navigate to `http://localhost:3000` to experience the code beautification functionality.
+
+---
