@@ -1,4 +1,4 @@
-# 项目名称
+# code-beautifier
 
 这是一款基于 Node.js、Express 和 js-beautify 的代码美化工具。为了提供更好的阅读体验，我们提供了多语言版本的文档。
 

@@ -38,3 +38,5 @@ node server.js
 After successfully starting the service, open your browser and navigate to `http://localhost:3000` to experience the code beautification functionality.
 
 ---
+
+[Go back to the Project Homepage](../) 
