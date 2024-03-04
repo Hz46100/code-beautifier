@@ -1,36 +1,8 @@
-# 代码美化 Demo
+# 项目名称
 
-## 介绍
+这是一款基于 Node.js、Express 和 js-beautify 的代码美化工具。为了提供更好的阅读体验，我们提供了多语言版本的文档。
 
-这是一个基于 Node.js、Express 和 js-beautify 构建的前后端交互式代码美化应用。用户可在前端页面的文本区域输入 JavaScript 代码，点击“美化”按钮后，前端将代码通过 AJAX 发送到后端服务器。后端接收到代码后使用 js-beautify 进行美化处理，美化后的代码将返回至前端页面展示，并提供复制到剪贴板及下载为 `.js` 文件的功能。
+- [中文版](./README_zh.md)
+- [English Version](./README_en.md)
 
-### 文件结构概览
-
-```
-├── package.json
-├── public
-│ ├── index.html
-│ └── client.js
-└── server.js
-```
-
-### 如何运行
-
-#### 1. 安装依赖
-
-在根目录下执行以下命令:
-
-```sh
-npm init -y
-npm install express js-beautify axios body-parser
-```
-
-#### 2. 启动后端服务
-
-```sh
-node server.js
-```
-
-#### 3. 访问前端页面
-
-服务启动后，打开浏览器访问 http://localhost:3000
+请选择您喜欢的语言进行查阅。
